@@ -1,15 +1,13 @@
 import React from 'react';
 
-import Routes from '../routes';
-
-class App extends React.Component {
+class SignupPage extends React.Component {
     render() {
         return (
             <div className="container">
-                <Routes />
+                <h1>Signup Page</h1>
             </div>
         );
     }
 }
 
-export default App;
+export default SignupPage;
