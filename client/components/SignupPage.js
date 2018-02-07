@@ -1,10 +1,11 @@
 import React from 'react';
+import SignupForm from './SignupForm';
 
 class SignupPage extends React.Component {
     render() {
         return (
             <div className="container">
-                <h1>Signup Page</h1>
+                <SignupForm />
             </div>
         );
     }
